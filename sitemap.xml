@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://ashtonac.com</loc>
+        <lastmod>2024-07-31</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1</priority>
+    </url>
+    <url>
+        <loc>https://ashtonac.com/project/stayfast</loc>
+        <lastmod>2024-07-31</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://ashtonac.com/project/getgood</loc>
+        <lastmod>2024-07-31</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://ashtonac.com/environments</loc>
+        <lastmod>2024-07-31</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.25</priority>
+    </url>
+    <url>
+        <loc>https://ashtonac.com/visualeffects</loc>
+        <lastmod>2024-07-31</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.25</priority>
+    </url>
+    <url>
+        <loc>https://ashtonac.com/userinterfaces</loc>
+        <lastmod>2024-07-31</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.25</priority>
+    </url>
+    <url>
+        <loc>https://ashtonac.com/about</loc>
+        <lastmod>2024-07-31</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.75</priority>
+    </url>
+</urlset>
