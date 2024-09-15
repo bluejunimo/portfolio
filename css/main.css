@@ -281,6 +281,12 @@ ul ul {
   animation-fill-mode: forwards;
   color: rgba(0, 0, 0, 0);
   opacity: 0;
+  margin-top: -1.5rem;
+}
+
+#projects > h2 {
+  margin-top: 7.5rem;
+  margin-bottom: 2rem;
 }
 
 .hover-wrapper-button a {
@@ -450,15 +456,11 @@ ul ul {
   aspect-ratio: 16 / 9;
 }
 
-.tags li + li:before {
-  content: "/\t";
-}
-
 .tags {
-  margin-top: 4rem;
+  margin-top: 2.5rem;
   display: flex;
   flex-flow: row wrap;
-  gap: 1.25rem;
+  gap: 2rem;
   position: fixed;
   padding: 0;
   opacity: 0;
