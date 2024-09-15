@@ -451,16 +451,17 @@ ul ul {
 }
 
 .tags li + li:before {
-  content: " / ";
+  content: "/\t";
 }
 
 .tags {
-  margin-top: 10rem;
+  margin-top: 4rem;
   display: flex;
   flex-flow: row wrap;
   gap: 1.25rem;
   position: fixed;
   padding: 0;
+  opacity: 0;
 
   animation-name: shrink-button-text, change-text-color;
   animation-duration: 150ms, 50ms;
