@@ -248,8 +248,9 @@ ul ul {
   height: 300px;
   margin-bottom: 16px;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column;
   justify-content: center;
+  align-items: center;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -335,6 +336,15 @@ ul ul {
     animation-duration: 150ms, 325ms;
     animation-delay: 0s, 150ms;
     animation-fill-mode: forwards, forwards;
+    animation-timing-function: ease;
+  }
+
+  .tags {
+    animation-name: change-text-color, enlarge-button-text;
+    animation-duration: 150ms, 325ms;
+    animation-delay: 0s, 150ms;
+    animation-fill-mode: forwards, forwards;
+    animation-timing-function: ease;
   }
 }
 
@@ -443,6 +453,21 @@ ul ul {
 .tags li + li:before {
   content: " / ";
 }
+
+.tags {
+  margin-top: 10rem;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1.25rem;
+  position: fixed;
+  padding: 0;
+
+  animation-name: shrink-button-text, change-text-color;
+  animation-duration: 150ms, 50ms;
+  animation-delay: 0s, 50ms;
+  animation-fill-mode: forwards, backwards;
+  animation-timing-function: ease-out;
+} 
 
 .button-wrapper {
   display: flex;
