@@ -156,7 +156,6 @@ a:focus {
   background-size: cover;
   background-position: center;
   display: block;
-  width: inherit;
   border-radius: 100px;
   font-family: "Fredoka";
   font-weight: 600;
@@ -174,7 +173,8 @@ ul ul {
   justify-content: space-evenly;
   padding: 0;
   height: 36px;
-  margin: 0 2.5rem;
+  margin: 0;
+  gap: 1.25rem;
 }
 
 .socials a {
@@ -229,7 +229,6 @@ ul ul {
     transform: initial;
   }
 
-
 }
 
 .site-content {
@@ -240,7 +239,8 @@ ul ul {
 }
 
 .button-margin {
-  margin: 1.5rem 2.5rem;
+  margin: 1.5rem 0;
+  flex-grow: 1;
 }
 
 #projects a {
@@ -440,6 +440,19 @@ ul ul {
   aspect-ratio: 16 / 9;
 }
 
+.tags li + li:before {
+  content: " / ";
+}
+
+.button-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: stretch;
+  gap: 1.25rem;
+  margin: 0 2.5rem;
+}
+
 /* ANIMATIONS */
 
 @keyframes enlarge {
@@ -575,10 +588,6 @@ ul ul {
 
   .button-margin {
     margin: 1.5rem 0;
-  }
-
-  .socials {
-    margin: 0;
   }
 
   .about-summary-wrapper {
