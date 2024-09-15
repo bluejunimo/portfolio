@@ -462,6 +462,7 @@ ul ul {
   position: fixed;
   padding: 0;
   opacity: 0;
+  z-index: 1;
 
   animation-name: shrink-button-text, change-text-color;
   animation-duration: 150ms, 50ms;
