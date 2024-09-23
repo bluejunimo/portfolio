@@ -1,7 +1,7 @@
 :root {
   --link-color: #4C1312;
-  --link-hover-color: #270909;
-  --link-focus-color: #000;
+  --link-hover-color: #e8ad80;
+  --link-focus-color: #d99562;
   --primary-color: #FEF1E7;
   --light-color: #fff7e8;
   --light-gray: #f0f0f0;
@@ -716,7 +716,7 @@ ul ul {
 
   #projects a h2 {
     display: block;
-    color: white !important;
+    color: var(--link-color);
     opacity: 100;
     background-color: var(--primary-color);
     background-image: url("../img/bg/btn-texture.png");
@@ -729,8 +729,10 @@ ul ul {
     padding: 0.75rem 0;
   }
 
+  #projects a:hover h2 {
+    color: var(--black);
+  }
 
-  
 
   /* CHANGING ANIMATIONS */
   @keyframes enlarge {
