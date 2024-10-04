@@ -526,14 +526,14 @@ ul ul {
 
 @keyframes darken {
   from {
-    background-color: rgba(255, 215, 215, 0);
+    background-color: rgba(255, 232, 215, 0);
     /* Change the color and opacity as needed */
     border-radius: 1.25rem;
     color: initial;
   }
 
   to {
-    background-color: #112709dd;
+    background-color: #271b09dd;
     /* Change the color and opacity as needed */
     border-radius: 150px;
     color: var(--primary-color);
