@@ -57,7 +57,7 @@ h4 {
   margin: 0;
 }
 
-p {
+p, li {
   /* body text */
   font-family: "Harmattan";
   font-weight: 400;
@@ -373,7 +373,7 @@ ul ul {
   margin-bottom: 1rem;
 }
 
-.site-content p {
+.site-content p, .site-content ol {
   padding-bottom: 2rem;
   width: 600px;
   max-width: 90%;
