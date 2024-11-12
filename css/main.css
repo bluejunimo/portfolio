@@ -1,7 +1,7 @@
 :root {
   --link-color: #4C1312;
-  --link-hover-color: #e8ad80;
-  --link-focus-color: #d99562;
+  --link-hover-color: #000;
+  --link-focus-color: #000;
   --primary-color: #FEF1E7;
   --light-color: #fff7e8;
   --light-gray: #f0f0f0;
@@ -422,6 +422,7 @@ ul ul {
   width: inherit;
   min-width: 40ch;
   padding-bottom: 0;
+  margin-bottom: 12px !important;
 }
 
 .about-summary-wrapper h1 {
